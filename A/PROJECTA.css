@@ -16,26 +16,12 @@
     text-decoration: none;
     padding: 10px;
 }
-
-.dropbtn{
-    background-color: black;
-    color:white;
-    border:none;
-    cursor:pointer;
-    display:flex;
-    align-items:center;
+.btn btn-primary{
+    border-color: black;
 }
-.dropbtn:hover{
-    background-color: white;
-    color: black;
+.caret{
+    border-color: black ;
 }
-.dropdown-content{
-    color: black;
-    display: none;
-    position:absolute;
-    background:#fff;
-}
-
 #search{
     margin-left: 850px;
     color:white
