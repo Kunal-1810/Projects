@@ -16,19 +16,29 @@ button{
 .btn-group{
     padding: 40px;
 }
+.dropdown{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.drpdwn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
 .dropdown-menu {
-    border: 1px solid #ddd;
+    border: 1px solid #201f1f;
     border-radius: 6px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 8px 0;
     margin-top: 4px;
 }
-
 .dropdown-item {
     padding: 8px 20px;
     color: #333;
 }
-
 .dropdown-item:hover {
     background-color: #f0f0f0;
 }
@@ -49,4 +59,55 @@ button{
 #cards{
     display: flex;
     justify-content: space-around;
+}
+.COLLAPSE{
+    padding: 40px;
+}
+.card-link{
+    color: black;
+    text-decoration: none;
+}
+.card-header a{
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    background-color: rgba(231, 152, 152, 0.622);
+}
+
+.navbar-nav a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+}
+#loginbox{
+    background-color: rgb(240, 181, 181);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#bigbox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.carousel-inner{
+    display: flex;
+}
+.carousel-item active{
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+
 }

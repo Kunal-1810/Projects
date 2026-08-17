@@ -16,8 +16,11 @@
     text-decoration: none;
     padding: 10px;
 }
-.btn btn-primary{
+.btn btn-secondary{
     border-color: black;
+}
+.dropdown-menu{
+    z-index: 100;
 }
 .caret{
     border-color: black ;
