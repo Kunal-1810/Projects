@@ -19,6 +19,12 @@
 .btn btn-secondary{
     border-color: black;
 }
+#more{
+    color: white;
+    border: none;
+    
+    background-color: black;
+}
 .dropdown-menu{
     z-index: 100;
 }
