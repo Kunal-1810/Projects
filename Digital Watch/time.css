@@ -1,0 +1,25 @@
+*{
+    box-sizing:border-box
+}
+body{
+    background-color: burlywood;
+}
+.digitalclock{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 37%;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(28, 26, 26);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+}
