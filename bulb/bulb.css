@@ -1,0 +1,8 @@
+.bulb{
+    display: flex;
+    justify-content:center ;
+    margin-top: 15%;
+}
+p{
+    text-align: center;
+}
