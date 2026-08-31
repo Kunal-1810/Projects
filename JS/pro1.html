@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro1</title>
+    <script type="text/javascript" src="pro1.js"> </script>
+    <script>
+        // document.write(" Internal js content"); 
+    </script>
+    <link rel="stylesheet" href="pro1.css">
+
+</head>
+<body>
+
+<script>
+    var a = 12;
+    if(a%2==0){
+        document.write("a is an even number");
+    }
+    else{
+        document.write("a is an odd number");
+    }
+</script>
+<br>
+<script>
+    var year = 2024;
+    if(year%4==0){
+        document.write("this year is a leap year");
+    }
+    else if (year%400==0){
+        document.write("this is leap century year");
+    }
+    else{
+        document.write("this is not a leap year");
+    }
+</script>
+<br>
+<script>
+    var x = 5;
+    if(x>8){
+        document.write("this number is greater than 8");
+    }
+    else if (x>4){
+        document.write("this number is greater than 4");
+    }
+    else if (x>2){
+        document.write("this number is greater than 2");
+    }
+    else{
+        document.write("thhis number is not greater than 2,4 and 8");
+    }
+</script>
+<br>
+<br>
+
+
+<script>
+    function play()
+    {
+    document.write("Content after click on the button");
+}
+</script>
+<button type="button" onclick="play()"> Press Me </button>
+<br>
+
+
+<script>
+    function square(n)
+    {
+    document.write(n*n);
+}
+</script>
+<button type="button" onclick="square(3)"> Click here </button>
+<br>
+
+
+
+<script>
+    function squareroot(n)
+    {
+    document.write(Math.sqrt(n));
+}
+squareroot(81);
+</script>
+<br>
+
+
+
+<script>
+  person ={name:"Manish" , class:12 , age:30};
+   {
+   document.write(person.name+ " " +person.class+ " " +person.age+ "<br>");
+}
+
+  person ={name:"Sahil" , class:11 , age:25};
+  {
+   document.write(person.name+ " " +person.class+ " " +person.age+ "<br>");
+}
+
+  person ={name:"Kunal" , class:10 , age:23};
+  {
+   document.write(person.name+ " " +person.class+ " " +person.age);
+}
+
+</script>
+<br>
+
+
+
+<script>
+    var fruits =new Array("Apple","Litchi","Banana","Mango");
+    {
+        document.write(fruits);
+    }
+</script>
+<br>
+
+
+
+<script>
+    var string =new String("Apple is of red color.");
+    {
+        document.write(string);
+    }
+</script>
+<br>
+
+
+
+<script>
+    function power(n,m)
+    {
+    document.write(Math.pow(n,m));
+}
+power(3,6);
+</script>
+
+
+<br>
+<script>
+    var x = 23;
+    var y = 34.6;
+    var n = new Number(32);{
+        document.write(x +y +n);
+    }
+</script>
+<br>
+
+<script>
+    var x = 10;{
+        document.write(x>15);
+    }
+</script>
+
+<br>
+
+<script>
+    function msg()
+    {
+       alert(" this page is not currently available");
+    }
+</script>
+<button type="button" onclick="msg()"> next page </button>
+<br>
+<script>
+    function text(){
+        var x = confirm(" Are you sure you want to leave this page? ");
+    
+    if(x==true){
+        alert("Oaky");
+    }
+    else{
+        alert("You are back to the page");
+    }
+    }
+</script>
+<button type="button" onclick="text()"> leave page </button>
+<br><br>
+
+
+<script>
+    function text1(){
+        var x = prompt(" What is your name?");
+        alert("Your are " + x);
+    
+    }
+</script>
+<button type="button" onclick="text1()"> input name </button>
+<br>
+<br>
+<script>
+    document.write("screen.width:"+ screen.width);
+    document.write("<br> screen.heigth:" + screen.height);
+</script>
+<br>
+<br>
+
+<script>
+    function getcube()
+    {
+    var n = document.getElementById("n").value;
+    alert(n*n*n);
+  }
+</script>
+<form>
+Number:<input type="text" id="n" name="number">
+<button type="button" onclick="getcube()">Cube</button>
+</form>
+
+
+
+
+
+<br><br>
+<footer style="background-color: cornflowerblue;">
+    Date & Time: <span id="txt"></span>
+<script>
+    var today=new Date();
+    document.getElementById('txt').innerHTML=today;
+</script>
+<br>
+</footer>
+
+
+
+</body>
+</html>
