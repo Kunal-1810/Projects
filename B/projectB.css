@@ -1,0 +1,128 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+    word-spacing: 4px;
+}
+.navbar{
+    top: 0%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 4px;
+    position: fixed;
+    background-color: rgb(245, 245, 245);
+    z-index: 10;
+}
+.navbar a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: rgba(48, 45, 45, 0.895);
+    transition-duration: 0.5s;
+}
+.navbar a:hover{
+    background-color: rgb(62, 92, 90);
+    color: white;
+    padding: 10px;
+}
+#menu{
+    padding: 20px;
+    margin-left: auto;
+}
+
+.image{
+    position: relative;
+    display: inline-block;
+}
+.image img{
+    z-index: 1;
+    display: block;
+    width: 100%;
+}
+#text{
+ color: grey;
+ font-size: 35px;
+ letter-spacing: 4px;
+ position: absolute;
+ bottom: 40%;
+ right: 40%;
+ padding: 20px;
+}
+#image2{
+    display: flex;
+    padding: 85px;
+}
+.img2{
+    font-size: 16px;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.img2 img{
+    z-index: 2;
+    opacity: 70%;
+    width: 90% ;
+}
+p{
+    text-align: left;
+    word-spacing: 3px;
+    line-height: 1.5;
+}
+p3{
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#image3{
+    display: flex;
+    padding: 50px;
+}
+.img3{
+    font-size: 16px;
+    padding: 30px;
+}
+p1{
+    color: gray;
+}
+.img3 img{
+    opacity: 70%;
+}
+.contact{
+    margin-top: 0;
+    padding: 70px;
+}
+p2{
+    color: #607d8b ;
+    font-weight: bold;
+}
+h1{
+    font-size: 34px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.forms{
+    color: #607d8b;
+    margin-top: 30px;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #bab3b3;
+    font-size: 18px;
+}
+button{
+    margin: 20px;
+    margin-left: 0;
+    padding: 18px;
+    border: none;
+}
+footer{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+
+</head>
+<body>
+
+    <div class="cont">
+        <h2>To-Do List</h2>
+        <div class="todoinput">
+        <input id="todo" type="" placeholder="Enter the item">
+        <button onclick="todoadd()">Add</button>
+        </div>
+        <div class="text">
+
+        </div>
+
+    </div>
+    <script>
+        let todoinput=document.getElementById("todo");
+        let text=document.querySelector(".text");
+        function todoadd(){
+            if (todoinput.value==""){
+                alert("Please write some task")
+            }
+            else{
+                let list=document.createElement("ul");
+                list.innerHTML=`${todoinput.value}
+                <i class="material-icons">&#xe872;</i>`;
+                text.appendChild(list);
+            todoinput.value="";
+            list.querySelector("i").addEventListener("click", remove);
+            function remove(){
+                list.remove();
+            }
+            }
+        }
+    </script>
+    
+</body>
+</html>
